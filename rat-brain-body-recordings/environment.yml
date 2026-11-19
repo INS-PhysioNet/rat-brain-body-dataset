@@ -1,0 +1,16 @@
+# Environment for the Rat Brain–Body Recordings code (assembly and artifact cleaning).
+
+name: rbbr
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy>=2.0,<3
+  - pyedflib          # EDF reading and writing
+  - openpyxl          # reads temp_calibration_final.xlsx (notebook 01)
+  - mne               # EDF reading in the cleaning notebook
+  - matplotlib>=3.7,<4
+  - jupyterlab>=4.0
+  - ipykernel
+  - ipywidgets        # optional verification section of notebook 01
