@@ -9,7 +9,7 @@ dependencies:
   - numpy>=2.0,<3
   - pyedflib          # EDF reading and writing
   - openpyxl          # reads temp_calibration_final.xlsx (notebook 01)
-  - mne               # EDF reading in the cleaning notebook
+  - mne-base          # EDF reading in the cleaning notebook
   - matplotlib>=3.7,<4
   - jupyterlab>=4.0
   - ipykernel
